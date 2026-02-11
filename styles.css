@@ -281,6 +281,22 @@ padding-top: 8px;
    color: white;
 }
 
+ /*footer*/
+
+ footer {
+  background-color: #242424;
+ }
+
+ .footer__row {
+   padding: 8% 0;
+ }
+
+ .footer__logo--img {
+   width: 70px;
+   height: 70px;
+ }
+
+
 
 
 
