@@ -4,7 +4,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
- }   
+ }
+ 
+ html {
+   scroll-behavior: smooth;
+ }
 
  h1, h2, h3, h4, h5, h6, span {
     Color: #242424;
@@ -23,6 +27,31 @@
 
  a{
    text-decoration: none;
+   position: relative;
+ }
+
+ .link__hover-effect:after {
+   content: "";
+   position: absolute;
+   height: 3px;
+   width: 0;
+   bottom: -3px;
+   right: 0;
+   transition: all 300ms ease;
+
+ }
+
+ .link__hover-effect--white:after {
+   background-color: #fff;
+ }
+
+ .link__hover-effect--black:after {
+   background-color: #000;
+ }
+
+ .link__hover-effect:hover:after {
+   width: 100%;
+   left: 0;
  }
  
  li{
@@ -336,6 +365,7 @@ padding-top: 8px;
 
  .footer__anchor:hover .footer__logo--popper {
    transform: translateX(60px);
+   opacity: 1;
  }
 
  
