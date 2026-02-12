@@ -287,16 +287,15 @@ padding-top: 8px;
  footer {
   background-color: #242424;
  }
-
  .footer {
-   max-width: 1200px;
-   margin: 0 auto;
-   text-align: center;
- }
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
 
- .footer__social--list {
+.footer__social--list {
    width: 100%;
-   max-width: 500px;
+   max-width: 1000px;
    display: flex;
    justify-content: space-around;
    margin-bottom: 28px;
@@ -321,6 +320,13 @@ padding-top: 8px;
 
  }
 
+ .footer__logo--popper {
+   color: #fff;
+   position: absolute;
+   font-weight: 700; 
+ }
+
+ 
 
 
 
