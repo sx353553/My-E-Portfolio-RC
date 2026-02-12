@@ -288,6 +288,20 @@ padding-top: 8px;
   background-color: #242424;
  }
 
+ .footer {
+   max-width: 1200px;
+   margin: 0 auto;
+   text-align: center;
+ }
+
+ .footer__social--list {
+   width: 100%;
+   max-width: 500px;
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 28px;
+ }
+
  .footer__row {
    display: flex;
    flex-direction: column;
@@ -304,6 +318,7 @@ padding-top: 8px;
  .footer__social--link,
  .footer__copyright {
    color: #fff;
+
  }
 
 
