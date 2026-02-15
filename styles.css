@@ -400,6 +400,12 @@ padding-top: 8px;
   .nav__link:not(:last-child) {
     display: none;
   }
+
+  .project__description {
+   padding: 0;
+   left: 0;
+   width: none;
+  }
   
   .project__description--para {
       display: none;
@@ -407,7 +413,7 @@ padding-top: 8px;
 
   .project__description--links {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
    }
 
    .project__description--title {
