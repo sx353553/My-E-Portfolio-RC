@@ -74,6 +74,7 @@
    width: 100%;
    max-width: 800px;
    margin: 0 auto;
+   padding: 0 12px;
 }
 
 .text--purple {
@@ -384,7 +385,41 @@ padding-top: 8px;
    .language {
     width: calc(100% / 2 );
    }
-}  
+   .project__description--para {
+      font-size: 14px;
+   }
+
+   .project__description {
+      left: 30px;
+      padding-right: 30px;
+   }
+}
+
+/* small phones */
+@media (max-width: 480px) {
+  .nav__link:not(:last-child) {
+    display: none;
+  }
+  
+  .project__description--para {
+      display: none;
+  }
+
+  .project__description--links {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .project__description--title {
+      line-height: 1;
+   }
+   .project__description--sub-title {
+      text-align: center;
+      margin: 12px 0;
+   }
+}
+
+
  
  
 
